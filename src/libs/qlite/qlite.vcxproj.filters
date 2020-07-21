@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7b0b4538-8aa3-44c0-8c6b-1842bef3acfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{b611ff86-ca50-40a1-8157-46a128c1075d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\litebar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\liteboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litedialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litemodebar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litescreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litetabbar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litetabwidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litewidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\litewindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qlite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\litebar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litebar_p.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\liteboard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litedialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litemodebar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litescreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litetabbar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litetabbar_p.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litetabwidget.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litewidget.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litewindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\litewindow_p.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qlite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

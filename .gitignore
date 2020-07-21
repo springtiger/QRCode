@@ -1,0 +1,8 @@
+/*.opendb
+/.vs
+/*.db
+/*.stash
+*.cbt
+*.user
+/tmp
+/bin

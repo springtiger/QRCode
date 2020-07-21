@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qlite", "src\libs\qlite\qlite.vcxproj", "{15CA27C5-9838-400C-9B50-27B7047C77F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qzxing", "src\libs\qzxing\qzxing.vcxproj", "{D368F956-BD48-3898-941B-911C7F848BD1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QRcode", "src\QRcode\QRcode.vcxproj", "{12BA0F53-AAF0-32B9-9308-F1B0A531EA9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15CA27C5-9838-400C-9B50-27B7047C77F0}.Debug|x64.ActiveCfg = Debug|x64
+		{15CA27C5-9838-400C-9B50-27B7047C77F0}.Debug|x64.Build.0 = Debug|x64
+		{15CA27C5-9838-400C-9B50-27B7047C77F0}.Release|x64.ActiveCfg = Release|x64
+		{15CA27C5-9838-400C-9B50-27B7047C77F0}.Release|x64.Build.0 = Release|x64
+		{D368F956-BD48-3898-941B-911C7F848BD1}.Debug|x64.ActiveCfg = Debug|x64
+		{D368F956-BD48-3898-941B-911C7F848BD1}.Debug|x64.Build.0 = Debug|x64
+		{D368F956-BD48-3898-941B-911C7F848BD1}.Release|x64.ActiveCfg = Release|x64
+		{D368F956-BD48-3898-941B-911C7F848BD1}.Release|x64.Build.0 = Release|x64
+		{12BA0F53-AAF0-32B9-9308-F1B0A531EA9E}.Debug|x64.ActiveCfg = Debug|x64
+		{12BA0F53-AAF0-32B9-9308-F1B0A531EA9E}.Debug|x64.Build.0 = Debug|x64
+		{12BA0F53-AAF0-32B9-9308-F1B0A531EA9E}.Release|x64.ActiveCfg = Release|x64
+		{12BA0F53-AAF0-32B9-9308-F1B0A531EA9E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

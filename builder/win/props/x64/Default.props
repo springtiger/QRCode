@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="Globals">
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)3rdparty/;$(SolutionDir)\src;$(ProjectDir)src;$(SolutionDir)\3rdparty\boost_1_68_0;$(QTDIR_x64)\include;$(QTDIR_x64)\include\QtCore;$(QTDIR_x64)\include\QtANGLE;$(QTDIR_x64)\include\QtGui;$(QTDIR_x64)\include\QtXml;$(QTDIR_x64)\include\QtWidgets;$(QTDIR_x64)\include\QtOpenGL;$(QTDIR_x64)\mkspecs\win32-msvc;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>/EHa</AdditionalOptions>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)3rdparty/;$(SolutionDir)bin\$(Configuration)\;$(SolutionDir)\3rdparty\boost_1_68_0\lib;$(QTDIR_x64)\lib;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>call "$(SolutionDir)builder\win\tools\postbuild.bat" "$(ProjectName)" "$(ProjectDir)" "$(IntDir)" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>call "$(SolutionDir)builder\win\tools\prebuild.bat" "$(ProjectName)" "$(ProjectDir)" "$(IntDir)" "$(OutDir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

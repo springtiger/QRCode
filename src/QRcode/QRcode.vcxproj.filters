@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="widgets">
+      <UniqueIdentifier>{be9365ab-dba9-4a88-aa1f-0fb82883a39c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QRcode.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dialogs\mainwindow.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialogs\qrcodewidget.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialogs\encoderform.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nativeapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialogs\decoderform.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialogs\imagewidget.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialogs\aboutform.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialogs\mainwindow.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialogs\qrcodewidget.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialogs\encoderform.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\qrc_images.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nativeapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialogs\decoderform.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialogs\imagewidget.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialogs\aboutform.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

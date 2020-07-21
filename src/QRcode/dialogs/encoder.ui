@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmEncoder</class>
+ <widget class="QWidget" name="frmEncoder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>827</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Encoder</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Parameter</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Length</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QDoubleSpinBox" name="dsbCon">
+        <property name="toolTip">
+         <string>The -con flag changes the contrast of the picture - a low number corresponds to low contrast and a high number to high contrast. Default: 1.0.</string>
+        </property>
+        <property name="statusTip">
+         <string>The -con flag changes the contrast of the picture - a low number corresponds to low contrast and a high number to high contrast. Default: 1.0.</string>
+        </property>
+        <property name="whatsThis">
+         <string>The -con flag changes the contrast of the picture - a low number corresponds to low contrast and a high number to high contrast. Default: 1.0.</string>
+        </property>
+        <property name="minimum">
+         <double>0.100000000000000</double>
+        </property>
+        <property name="value">
+         <double>1.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QDoubleSpinBox" name="dsbBri">
+        <property name="toolTip">
+         <string>The -bri flag changes the brightness and the parameter values work the same as those for -con. Default: 1.0.</string>
+        </property>
+        <property name="statusTip">
+         <string>The -bri flag changes the brightness and the parameter values work the same as those for -con. Default: 1.0.</string>
+        </property>
+        <property name="whatsThis">
+         <string>The -bri flag changes the brightness and the parameter values work the same as those for -con. Default: 1.0.</string>
+        </property>
+        <property name="minimum">
+         <double>0.100000000000000</double>
+        </property>
+        <property name="value">
+         <double>1.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QSpinBox" name="sbV">
+        <property name="toolTip">
+         <string>representing the length is from a minimum of 1 to a maximum of 40.</string>
+        </property>
+        <property name="statusTip">
+         <string>representing the length is from a minimum of 1 to a maximum of 40.</string>
+        </property>
+        <property name="whatsThis">
+         <string>representing the length is from a minimum of 1 to a maximum of 40.</string>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>40</number>
+        </property>
+        <property name="value">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Correction</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QComboBox" name="cmbL">
+        <property name="toolTip">
+         <string>representing the error correction level is one of L, M, Q and H, where L is the lowest level and H is the highest.</string>
+        </property>
+        <property name="statusTip">
+         <string>representing the error correction level is one of L, M, Q and H, where L is the lowest level and H is the highest.</string>
+        </property>
+        <property name="whatsThis">
+         <string>representing the error correction level is one of L, M, Q and H, where L is the lowest level and H is the highest.</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>L</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>M</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Q</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>H</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="3">
+       <widget class="QCheckBox" name="cbC">
+        <property name="toolTip">
+         <string>The -c is to make the resulting picture colorized.</string>
+        </property>
+        <property name="statusTip">
+         <string>The -c is to make the resulting picture colorized.</string>
+        </property>
+        <property name="whatsThis">
+         <string>The -c is to make the resulting picture colorized.</string>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>Image Coloring</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Contrast</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Brightness</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>QR code content    STEP 2: Enter Encrypted Content</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QPlainTextEdit" name="pteContent">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Backgroud Image.      STEP 1: Load a Image as Backgroud</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="btnLoad">
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="ImageWidget" name="imgSrc" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="title">
+        <string>QR code</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="btnSave">
+          <property name="text">
+           <string>Save</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="ImageWidget" name="imgQRCode" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ImageWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">dialogs/imagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
